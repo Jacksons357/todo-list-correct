@@ -1,0 +1,64 @@
+.header {
+  background-color: var(--gray-700);
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin-left: 0.5rem;
+}
+
+.do {
+  color: var(--purple);
+}
+
+.newTaskForm {
+  position: absolute;
+  height: 3rem;
+  bottom: -1.7rem;
+  width: 100%;
+  display: flex;
+  max-width: 736px;
+  gap: 8px;
+  padding: 0 1rem;
+}
+
+.newTaskForm input {
+  height: 100%;
+  flex: 1;
+  color: var(--white);
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 0 0.750rem;
+  font-size: 1rem;
+}
+
+.newTaskForm input::placeholder{
+  color: var(--gray-300);
+}
+
+.newTaskForm button {
+  height: 100%;
+  padding: 0 1rem;
+  background: var(--blue-dark);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.newTaskForm button:hover {
+  background-color: var(--blue);
+  cursor: pointer;
+}
